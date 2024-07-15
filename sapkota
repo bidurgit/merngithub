@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Learning MERN Stack</h1>
+        <table>
+            <tr>
+                <td>
+                    <img src="/assets/images/.....">
+                </td>
+                <td>
+                    <h1>Me Bidur Sapkota from Parbat.</h1>
+                    <strong>
+                        <a href="/contact.html">Contact Me</a>
+                    </strong>
+                    &nbsp;
+                    <!-- <strong> 
+                        <a href="https:unsplass.com" target="_blank">Unsplash</a>
+                     </strong> -->
+                </td>
+            </tr>
+        </table>
+        <h2> My Hobbies</h1>
+            <ul>
+                <li>Travel</li>
+                <li>playing</li>
+                <li>Study</li>
+            </ul>
+            <h3>My Experiences</h3>
+            <table border="2px" cellpadding="10px" cellspacing="0">
+                <tr>
+                    <td>web</td>
+                    <td>Good</td>
+                    <td>java</td>
+                    <td>weak</td>
+                    <!-- do rowspan and colspan -->
+                </tr>
+                
+            </table>
+
+    </body>
+</html>

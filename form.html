@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="mailto:ashokabrother@gmail.com">
+        <h2>Personal Information</h2>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Write your username" id="username" name="name">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" id="email" name="email">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your password" id="password" name="password">
+        </p>
+
+        <h2>Gender</h2>
+        <p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </p>
+
+        <h2>Habits</h2>
+        <p>
+            <input type="checkbox" id="exercise" name="habit" value="exercise">
+            <label for="exercise">Exercise</label>
+            <input type="checkbox" id="sleep" name="habit" value="sleep">
+            <label for="sleep">Sleep</label>
+            <input type="checkbox" id="eat" name="habit" value="eat">
+            <label for="eat">Eat</label>
+            <input type="checkbox" id="alcoholic" name="habit" value="alcoholic">
+            <label for="alcoholic">Alcoholic</label>
+            <input type="checkbox" id="non-alcoholic" name="habit" value="non-alcoholic">
+            <label for="non-alcoholic">Non-Alcoholic</label>
+        </p>
+
+        <h2>Additional Information</h2>
+        <p>
+            <label for="select">Select your Country:</label>
+            <select id="select" name="country">
+                <option value="usa">USA</option>
+                <option value="nepal">Nepal</option>
+                <option value="china">China</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="textarea">Write about yourself:</label>
+            <textarea id="textarea" name="textarea" rows="10" cols="50" placeholder="Write about yourself, please"></textarea>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <p>
+            <label for="color">Select your favorite color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+
+</html>

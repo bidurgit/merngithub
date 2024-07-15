@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+
+    </head>
+
+    <body>
+        <h1>This is Bidur Sapkota's website Practice.</h1>
+        <fieldset><legend>Personal Information </legend>
+        <form action="mailto:sapkota.bidur123@gmail.com" method="post">
+            <p>
+                <label for="mail">Email
+                    <input type="email" id="mail" name="email" required>
+                </label>
+            </p>
+            <p>
+            <label for="username">Username
+                    <input type="text" id="username" name="username" required>
+            </label>
+            </p>
+            <p>
+                <label for="male">Male
+                    <input type="radio" id="male" name="gender" value="male">
+                </label>
+
+                    <label for="female">Female
+                        <input type="radio"id="Female" name="gender" value="female">
+                    </label>
+
+                
+            </p>
+            <p>
+                <h2>Select your hobbies</h2>
+                <label for="travel">Travel
+                <input type="checkbox"id="travel" name="hobbies" value="travel">
+                </label>
+                <label for="study">Study
+                    <input type="checkbox"id="study" name="hobbies" value="study">
+                </label>
+            </p>
+            <p>
+                <h2>Select your location</h2>
+                <select name="location"id="location">
+                    <option value="kathmandu">Kathmandu</option>
+                    <option value="pokhara">Pokhara</option>
+                    <option value="chitwan">Chitwan</option>
+
+                </select>
+            </p>
+            <p>
+                <textarea placeholder="message"name="msg" id="" cols="40"rows="10"></textarea>
+                <br><br><br>
+
+            <button type="submit" >Submit</button>
+            <button type="reset">Reset</button>
+
+        </form>
+        </fieldset>
+        
+        
+    </body>
+
+</html>
